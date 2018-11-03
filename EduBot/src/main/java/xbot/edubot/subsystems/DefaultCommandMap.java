@@ -13,5 +13,6 @@ public class DefaultCommandMap {
         
         // For example:
         // subsystemObject.setDefaultCommand(commandObject);
+    	drive.setDefaultCommand(driveWithJoysticksCommand);
     }
 }
