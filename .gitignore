@@ -23,3 +23,4 @@ dist/
 derby.log
 TeamDatabase/
 488Logs
+.vscode/
