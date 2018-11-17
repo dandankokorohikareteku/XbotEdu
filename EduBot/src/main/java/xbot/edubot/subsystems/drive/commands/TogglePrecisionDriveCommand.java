@@ -24,6 +24,7 @@ public class TogglePrecisionDriveCommand extends BaseCommand {
         // 2) Create a TogglePrecisionMode() on the DriveSubsystem. The system will internally change
         //    the current mode.
         // In all of these cases you'll need to have the mode somehow affect the TankDrive method.
+    	drive.togglePrecisionMode();
     }
 
     @Override
