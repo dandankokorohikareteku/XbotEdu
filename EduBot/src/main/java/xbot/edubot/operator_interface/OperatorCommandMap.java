@@ -19,7 +19,8 @@ public class OperatorCommandMap {
         // Set which buttons should run which commands here
         
     	operatorInterface.controller.getifAvailable(9).toggleWhenPressed(arcade);
-    	operatorInterface.controller.getifAvailable(10).whenPressed(tankDrive);
+    	operatorInterface.controller.getifAvailable(10).toggleWhenPressed(togglePrecisionDriveCommand);
+    	
         // Example:
         // operatorInterface.driverJoystickButtons.getifAvailable(1).whenPressed(instanceOfYourCommand);
     }
